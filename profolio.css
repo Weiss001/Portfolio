@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: black;
+}
+
+header 
+{
+    display: flex;
+    padding:20px 15px;
+    justify-content: space-between;
+    
+}
+
+.Portfolio
+{
+    color: #ffff;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    animation: slideTop 1s ease forwards;
+    
+}
+
+nav 
+{
+    text-decoration: none;
+    gap: 1rem;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffff;
+}
+
+a 
+{
+    text-decoration: none;
+    color: #ffff;
+    cursor: pointer;
+}
+
+a:hover 
+{
+    color:#db5d0c;
+}
+
+.main-container 
+{
+    display: flex;
+    position: relative;
+    top: 6rem;
+    padding: 0 25px;  
+}
+
+.Presentation
+{
+    display: grid;
+    width: 50%;
+    gap: 10px;
+    position: relative;
+}
+
+.Hello
+{
+    color: #ffff;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.name 
+{
+    color: #ffff;
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.role 
+{
+    color: #ffff;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.role span 
+{
+    color: #db5d0c;
+}
+
+.generator__text 
+{
+color:#fff;
+}
+
+button
+{
+    width: 20%;
+    border-radius: 50rem;
+    height: 36px;
+    background: #db5d0c;
+    cursor: pointer;
+}
+
+
+.icons__icons
+{
+    height: 2rem;
+    /*background: #db5d0c;*/
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size:1.5rem;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.circle 
+{
+    border-radius: 50rem;
+    border: 1px solid #db5d0c;
+    position:relative;
+    left:1px;
+    animation: slideRight 1s ease forwards;
+}
+
+.facebook 
+{
+    width: 35px;
+    height: 2rem;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #db5d0c;
+}
+
+.twitter 
+{
+    width: 35px;
+    height: 2rem;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #db5d0c;
+}
+
+.instagram 
+{
+    width: 35px;
+    height: 2rem;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #db5d0c;
+}
+
+.youtube
+{
+    width: 35px;
+    height: 2rem;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #db5d0c;
+}
+
+.circle__image 
+{
+    border-radius: 50rem;
+    background-color: #db5d0c;
+    animation: slideRight 1s ease forwards;
+}
+
+img 
+{
+    animation: slideRight 1s ease forwards;
+}
+
+.self__image 
+{
+    animation: slideRight 1s ease forwards;
+}
+
+@keyframes slideRight {
+    0%{
+        transform: translateX(-100px);
+        opacity:0;
+    }
+
+    100%{
+        transform: translateX(0);
+        opacity:1;
+    }
+}
+
+
+@keyframes slideTop {
+    0%{
+        transform: translateY(100px);
+        opacity:0;
+    }
+
+    100%{
+        transform: translateY(0);
+        opacity:1;
+    }
+}
